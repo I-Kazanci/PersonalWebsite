@@ -1,0 +1,19 @@
+
+.frame {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.frame > img {
+    max-height: 300px;
+    aspect-ratio: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
