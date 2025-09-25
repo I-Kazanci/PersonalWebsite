@@ -150,7 +150,7 @@ const courses: listItem[] = [
     },
     {
         title: "Math202 Differential Equations",
-        description:  " Solving the Heat Equation, applying the Frobenius method, and diving into Wronskian matrices really makes you realize how deep the field of differential equations is—and that its scope is truly limitless.",
+        description:  " Solving the Heat Equation, applying the Frobenius method, and diving into Wronskian matrices really makes you realize how deep the field of differential equations is, and that its scope is truly limitless.",
         course: true,
     },
     {
