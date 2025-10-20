@@ -31,7 +31,7 @@ export const Home = () => {
     )
 }
 
-const experiences: listItem[] = [{title: "Software Engineering Intern at Trailblu", duration: "June 2025 - Augustus 2025",
+const experiences: listItem[] = [{title: "Software Engineering Intern at Trailblu", duration: "June 2025 - August 2025",
     description:
         "Worked as a Software Engineering Intern, mainly focusing on frontend development with React.js. " +
         "I added a new page and related functionality to an existing web application " +
