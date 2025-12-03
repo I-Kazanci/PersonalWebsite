@@ -54,7 +54,7 @@ const mathTopics: topic[] = [
     { title: "In higher dimensions, integrability depends on both the set and the function: the set needs to be measurable and the function must be bounded with zero-content discontinuity", subject: "Integral Calculus" },
     { title: "For conditionally convergent series, there is a rearrangement such that it converges to S, where S is an arbitrary real number", subject: "Infinite Series" },
     { title: "Continuous functions on sequentially compact spaces attains its max and min values. That is why our usual 'optimization' problems are solvable", subject: "Metric Space Theory" },
-    { title: "Polynomial functions are dense in continuous functions space. Every continuous function can be uniformly approximated by polynomials(Weierstrass Approximation Theorem)", subject: "Functional Analysis" },
+    { title: "Polynomial functions are dense in continuous functions space. Every continuous function can be uniformly approximated by polynomials (Weierstrass Approximation Theorem)", subject: "Functional Analysis" },
 ]
 
 const others: topic[] = [
