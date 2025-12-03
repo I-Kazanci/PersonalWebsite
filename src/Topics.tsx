@@ -11,7 +11,7 @@ export const Topics = () => {
             <TopicList title="Mathematics Related" topics={mathTopics}></TopicList>
             <TopicList title="Others" topics={others}></TopicList>
 
-            <p>Last Updated at: September 2025</p>
+            <p>Last Updated at: December 2025</p>
         </>
     )
 }
@@ -33,7 +33,12 @@ const cmpeTopics: topic[] = [
     { title: "Trade-off between 3NF and BCNF, BCNF reduces redundancy at the expense of increasing join costs", subject: "Database Theory" },
     { title: "Considering uniquely decodable codes instead of instantaneous ones does not shorten the expected codeword length; Kraft's inequality holds for both of them", subject: "Information Theory" },
     { title: "RSA public key cryptography, and its reliance on the unproven conjecture that 'Factoring is hard'", subject: "Cryptography" },
-    { title: "Square attack on AES. It easily breaks 4, 5, or 6 round AES.", subject: "Cryptography" }
+    { title: "Square attack on AES. It easily breaks 4, 5, or 6 round AES.", subject: "Cryptography" },
+    { title: "Admissibility and consistency of heuristics, guaranteeing A* optimality", subject: "Artificial Intelligence" },
+    { title: "Shortest solution of a relaxed problem as a heuristic function", subject: "Artificial Intelligence" },
+    { title: "In decision trees, deeper branches overfit noise; random forests fix this by aggregating many weak learners", subject: "Machine Learning" },
+    { title: "Why logistic regression requires gradient descent ? The gradient of E_in leads to nonlinear equations", subject: "Machine Learning" },
+
 ]
 
 const mathTopics: topic[] = [
@@ -47,7 +52,9 @@ const mathTopics: topic[] = [
     { title: "Galois Extension of finite fields, and how it is related to degree of extension", subject: "Galois Theory" },
     { title: "There is a bijection between subgroups of a Galois group and intermediate fields of a Galois Extension", subject: "Galois Theory" },
     { title: "In higher dimensions, integrability depends on both the set and the function: the set needs to be measurable and the function must be bounded with zero-content discontinuity", subject: "Integral Calculus" },
-    { title: "For conditionally convergent series, there is a rearrangement such that it converges to S, where S is an arbitrary real number", subject: "Infinite Series" }
+    { title: "For conditionally convergent series, there is a rearrangement such that it converges to S, where S is an arbitrary real number", subject: "Infinite Series" },
+    { title: "Continuous functions on sequentially compact spaces attains its max and min values. That is why our usual 'optimization' problems are solvable", subject: "Metric Space Theory" },
+    { title: "Polynomial functions are dense in continuous functions space. Every continuous function can be uniformly approximated by polynomials(Weierstrass Approximation Theorem)", subject: "Functional Analysis" },
 ]
 
 const others: topic[] = [
