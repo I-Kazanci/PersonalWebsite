@@ -67,9 +67,9 @@ const projects: listItem[] = [
             "features a title and achievement system, personal profile pages for travelers, and ways to discover the best cities through" +
             " community ratings.\n\nThis project is something I’ve devoted a lot of time and energy to. Not only coding, but also designing" +
             " ways to make it more fun and engaging, and even creating some of the pixel art myself. It is in testing phase now !" +
-            "And it is planned to be published in play store before february ends. If you want to be a tester (which would be awesome for me!)" +
-            "You can email me. Since it is in testing phase, I need to add you manually give you permission to view and download on play store." +
-            "However, I don't think I will publish it for iOS devices due to high cost of app store."
+            " And it is planned to be published in play store before february ends. If you want to be a tester (which would be awesome for me!)" +
+            " You can email me. Since it is in testing phase, I need to add you manually give you permission to view and download on play store." +
+            " However, I don't think I will publish it for iOS devices due to high cost of app store."
     },
 
     {
