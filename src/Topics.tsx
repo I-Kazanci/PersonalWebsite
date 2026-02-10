@@ -55,6 +55,8 @@ const mathTopics: topic[] = [
     { title: "For conditionally convergent series, there is a rearrangement such that it converges to S, where S is an arbitrary real number", subject: "Infinite Series" },
     { title: "Continuous functions on sequentially compact spaces attains its max and min values. That is why our usual 'optimization' problems are solvable", subject: "Metric Space Theory" },
     { title: "Polynomial functions are dense in continuous functions space. Every continuous function can be uniformly approximated by polynomials (Weierstrass Approximation Theorem)", subject: "Functional Analysis" },
+    {title: "Every infinite simple continued fraction converges to an irrational number, and every irrational number can be written in this form.", subject: "Number Theory",},
+    {title: "Pell’s equation, along with many other Diophantine solvability problems, can be translated into a question in another field: ‘Does such an algebraic number exist in that field?’", subject: "Number Theory",},
 ]
 
 const others: topic[] = [

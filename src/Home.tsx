@@ -11,7 +11,7 @@ export const Home = () => {
                 <div>
                     <h2>About Me</h2>
                     <p>
-                        Hi there! I’m a senior Computer Engineering student, double majoring in Mathematics at Boğaziçi University. Right now I’m wrapping up my bachelor’s while diving into cryptography, building a mobile app, and enjoying Istanbul whenever I get the chance.
+                        Hi there! I’m a senior Computer Engineering student, double majoring in Mathematics at Boğaziçi University. Right now I’m wrapping up my bachelor’s while diving into game development, applied mathematics, and  building a mobile app, and enjoying Istanbul whenever I get the chance.
                     </p>
 
                     <p>Bogazici University</p>
@@ -26,7 +26,7 @@ export const Home = () => {
             <NiceList title={"Technical Skills"} items={skills} description={skillsExp}/>
             <NiceList title={"Loved Courses"} items={courses} description={coursesExp} />
 
-            <p>Last Updated at: September 2025</p>
+            <p>Last Updated at: February 2026</p>
         </>
     )
 }
@@ -65,9 +65,11 @@ const projects: listItem[] = [
             " and explore what others post. The app has a retro pixel-art theme, with Firebase handling storage and authentication." +
             " It is written in React Native with TypeScript and makes use of several libraries, most notably React Query. Wanderer also " +
             "features a title and achievement system, personal profile pages for travelers, and ways to discover the best cities through" +
-            " community ratings.\n\nThis project is something I’ve devoted a lot of time and energy to—not only coding, but also designing" +
-            " ways to make it more fun and engaging, and even creating some of the pixel art myself. As of September 2025, it’s not released yet," +
-            " but only minor adjustments are left, and I’m very excited to publish it soon. I’ll add the link here once it’s live.",
+            " community ratings.\n\nThis project is something I’ve devoted a lot of time and energy to. Not only coding, but also designing" +
+            " ways to make it more fun and engaging, and even creating some of the pixel art myself. It is in testing phase now !" +
+            "And it is planned to be published in play store before february ends. If you want to be a tester (which would be awesome for me!)" +
+            "You can email me. Since it is in testing phase, I need to add you manually give you permission to view and download on play store." +
+            "However, I don't think I will publish it for iOS devices due to high cost of app store."
     },
 
     {
@@ -137,15 +139,33 @@ const courses: listItem[] = [
         stared: true,
     },
     {
+        title: "CmpE462 Machine Learning",
+        description:
+        " A course which starts with traditional machine learning and expands into neural networks. I really enjoyed the mathematical thinking behind classification, clustering, and so on. I have to admit, I am not a big fan of big data though.",
+        course: true,
+    },
+    {
+        title: "Math327 Number Theory",
+        description:
+        " Number theory is endless (umm, hello Riemann Hypothesis?). It goes far beyond what you initially think it is, and it only gets much enjoyable ! If I were to pursue a career as a mathematician, I would definitely serve the Queen of Mathematics !",
+        course: true,
+    },
+    {
+        title: "Math331 Metric Spaces",
+        description:
+        " Topology flavored analysis course. Compactness, connectedness, in arbitrary metric spaces (especially function spaces!) will make steam come out of your head!"
+    },
+    {
         title: "CmpE 321 Database Systems",
         description:
             " A very fun course with SQL, data modeling, insights into hardware, and plenty of discussions about what makes a 'good' database.",
         course: true,
     },
+
     {
         title: "EE212 Principles of Electronics Engineering",
         description:
-            " A nice course where you learn diodes, transistors, and more. Even though, as a computer engineer, you mostly take it to better understand digital systems, it has real value on its own.",
+            " A nice course where you learn diodes, transistors, and more. Even though, as a computer engineer, you mostly take it to better understand digital systems, but it has real value on its own.",
         course: true,
     },
     {
