@@ -60,17 +60,18 @@ const projects: listItem[] = [
     {
         title: "Mobile App, Wanderer",
         description:
+            "Wanderer is Live ! You can access it on Google Play Store !" +
             "A cross-platform app that gamifies travelling by letting users create travel lists, rate cities, and" +
             " share comments with others. Users must log in to interact: they can rate cities, share their experiences," +
             " and explore what others post. The app has a retro pixel-art theme, with Firebase handling storage and authentication." +
             " It is written in React Native with TypeScript and makes use of several libraries, most notably React Query. Wanderer also " +
             "features a title and achievement system, personal profile pages for travelers, and ways to discover the best cities through" +
             " community ratings.\n\nThis project is something I’ve devoted a lot of time and energy to. Not only coding, but also designing" +
-            " ways to make it more fun and engaging, and even creating some of the pixel art myself. It is in testing phase now !" +
-            " And it is planned to be published in play store before february ends. If you want to be a tester (which would be awesome for me!)" +
-            " You can email me. Since it is in testing phase, I need to add you manually give you permission to view and download on play store." +
-            " However, I don't think I will publish it for iOS devices due to high cost of app store."
+            " ways to make it more fun and engaging, and even creating some of the pixel art myself. Sadly, appStore publish is not likely to happen in near future, due to" +
+            "high fees of appStore.",
+        link:"https://play.google.com/store/apps/details?id=com.kazanci.traveller"
     },
+
 
     {
         title: "ChessDB - FIDE Management System",

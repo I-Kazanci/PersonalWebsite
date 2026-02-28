@@ -33,5 +33,5 @@ const frames: frame[] = [{src: img1, alt:'Me and brother in Berlin'},
                         {src: img3, alt:'Ceyhun eats ice cream, Umut is displeased'},
                         {src: img4, alt:'Sİ dg, 22nd edition'},
                         {src: img5, alt:'Me and soon to be doctor bros'},
-                        {src: img6, alt:'Screenshot from my soon to be released app, Wanderer'},
+                        {src: img6, alt:'Screenshot from my app, Wanderer'},
                         {src: img7, alt:'Appa'}]
