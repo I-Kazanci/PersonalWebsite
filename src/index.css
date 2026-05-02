@@ -16,6 +16,10 @@
   text-indent: 25px;
 }
 
+.left-margin {
+    margin-left: 35px;
+}
+
 .description {
   margin: 2px;
 }

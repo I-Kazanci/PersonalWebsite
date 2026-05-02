@@ -6,32 +6,38 @@ export const Home = () => {
     return (
         <>
             <div className="home">
-                <img src={img1} alt="Untitled.jpeg" className="img_me" />
+                <img src={img1} alt="Untitled.jpeg" className="img_me"/>
 
                 <div>
                     <h2>About Me</h2>
                     <p>
-                        Hi there! I’m a senior Computer Engineering student, double majoring in Mathematics at Boğaziçi University. Right now I’m wrapping up my bachelor’s while diving into game development, applied mathematics, and  building a mobile app, and enjoying Istanbul whenever I get the chance.
+                        Hi there! I’m a senior Computer Engineering student, double majoring in Mathematics at Boğaziçi
+                        University. Right now I’m wrapping up my bachelor’s while diving into game development, applied
+                        mathematics, and building a mobile app, and enjoying Istanbul whenever I get the chance.
                     </p>
 
                     <p>Bogazici University</p>
                     <p id="city">Istanbul, Turkey</p>
 
-                    <a  href="mailto:inankazanci@gmail.com" id="mail">inankazanci@gmail.com</a>
+                    <a href="mailto:inankazanci@gmail.com" id="mail">inankazanci@gmail.com</a>
                 </div>
             </div>
 
-            <NiceList title={"Experience"} items={experiences} />
-            <NiceList title={"Projects"} items={projects} />
+            <NiceList title={"Experience"} items={experiences}/>
+            <NiceList title={"Projects"} items={projects}/>
+            <iframe className="left-margin" frameBorder="0" src="https://itch.io/embed/4533390" width="552" height="167"><a
+                href="https://memoroketparmak.itch.io/until-army-arrives">Until Army Arrives by MemoRoketParmak</a>
+            </iframe>
             <NiceList title={"Technical Skills"} items={skills} description={skillsExp}/>
-            <NiceList title={"Loved Courses"} items={courses} description={coursesExp} />
+            <NiceList title={"Loved Courses"} items={courses} description={coursesExp}/>
 
-            <p>Last Updated at: February 2026</p>
+            <p>Last Updated at: May 2026</p>
         </>
     )
 }
 
-const experiences: listItem[] = [{title: "Software Engineering Intern at Trailblu", duration: "June 2025 - August 2025",
+const experiences: listItem[] = [{
+    title: "Software Engineering Intern at Trailblu", duration: "June 2025 - August 2025",
     description:
         "Worked as a Software Engineering Intern, mainly focusing on frontend development with React.js. " +
         "I added a new page and related functionality to an existing web application " +
@@ -84,6 +90,10 @@ const projects: listItem[] = [
         description: "A TypeScript cryptanalysis project implementing the Square (Integral) Attack on 4-round reduced AES. Includes finite field arithmetic over GF(2^8), AES S-box, Δ-set generation, and attack routines that exploit the balanced property of state bytes after 4 rounds." +
             "You can view the AES and attack here:   ",
         link: "https://github.com/I-Kazanci/AES-4-Round-Attack"
+    },
+    {
+        title: "Survival Rogue-lite Game, Until Army Arrives",
+        description: "Vampire Survivors style survival, Roguelike game, with cozy pixel art. Player tries to survive the horde of monsters, so that village can be saved ! Game is available in Linux and Windows. Can also be played in browser. Though download is preferred, due to potential high ram usage. "
     }
 
 ]
