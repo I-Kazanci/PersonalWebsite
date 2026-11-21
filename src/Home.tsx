@@ -1,6 +1,7 @@
 import './home.css';
 import img1 from './assets/me.jpeg';
 import {NiceList, type listItem} from "./NiceList.tsx";
+import type {ReactElement} from "react";
 
 export const Home = () => {
     return (
@@ -12,8 +13,9 @@ export const Home = () => {
                     <h2>About Me</h2>
                     <p>
                         Hi there! I’m a senior Computer Engineering student, double majoring in Mathematics at Boğaziçi
-                        University. Right now I’m wrapping up my bachelor’s while diving into game development, applied
-                        mathematics, and building a mobile app, and enjoying Istanbul whenever I get the chance.
+                        University. Right now I’m wrapping up my bachelor’s and getting ready for my master's degree with some
+                        computer science courses! I work on some game ideas and enjoy the Istanbul with my friends whenever I
+                        get the chance.
                     </p>
 
                     <p>Bogazici University</p>
@@ -25,18 +27,21 @@ export const Home = () => {
 
             <NiceList title={"Experience"} items={experiences}/>
             <NiceList title={"Projects"} items={projects}/>
-            <iframe className="left-margin" frameBorder="0" src="https://itch.io/embed/4533390" width="552" height="167"><a
-                href="https://memoroketparmak.itch.io/until-army-arrives">Until Army Arrives by MemoRoketParmak</a>
-            </iframe>
             <NiceList title={"Technical Skills"} items={skills} description={skillsExp}/>
             <NiceList title={"Loved Courses"} items={courses} description={coursesExp}/>
 
-            <p>Last Updated at: May 2026</p>
+            <p>Last Updated at: November 2026</p>
         </>
     )
 }
 
 const experiences: listItem[] = [{
+    title: "Part-time Software Engineer at DsNext", duration: "June 2026 - Present",
+    description: "I am currently working as a part-time software engineer at DsNext" +
+    "I am responsible for implementing cms backend (and also mobile if needed) using .NET for their apps," +
+        "I am also implementing cms frontend using React.js. Mentrova is planned to go live in near future, and I am proud of  " +
+        "what it turned into. The most fascinating part, implementing ai matching system still remains as a hurdle to pass though."
+    },{
     title: "Software Engineering Intern at Trailblu", duration: "June 2025 - August 2025",
     description:
         "Worked as a Software Engineering Intern, mainly focusing on frontend development with React.js. " +
@@ -62,6 +67,13 @@ const experiences: listItem[] = [{
     }]
 
 
+const gameLink1:ReactElement = (<iframe  frameBorder="0" src="https://itch.io/embed/4533390" width="552" height="167"><a
+    href="https://memoroketparmak.itch.io/until-army-arrives">Until Army Arrives by MemoRoketParmak</a>
+</iframe>)
+
+
+const gameLink2: ReactElement = (<iframe frameBorder="0" src="https://itch.io/embed/5260229" width="552" height="167"><a
+    href="https://memoroketparmak.itch.io/off-the-rails">Off The Rails ! by MemoRoketParmak</a></iframe>)
 const projects: listItem[] = [
     {
         title: "Mobile App, Wanderer",
@@ -93,7 +105,13 @@ const projects: listItem[] = [
     },
     {
         title: "Survival Rogue-lite Game, Until Army Arrives",
-        description: "Vampire Survivors style survival, Roguelike game, with cozy pixel art. Player tries to survive the horde of monsters, so that village can be saved ! Game is available in Linux and Windows. Can also be played in browser. Though download is preferred, due to potential high ram usage. "
+        description: "Vampire Survivors style survival, Roguelike game, with cozy pixel art. Player tries to survive the horde of monsters, so that village can be saved ! Game is available in Linux and Windows. Can also be played in browser. Though download is preferred, due to potential high ram usage. ",
+        gameLink: gameLink1,
+    },
+    {
+        title: "Small Puzzle Game, Off The Rails!",
+        description: "Off The Rails is a simple (yet challenging!) game which you control the switches in the map, and navigate the ongoing  train indirectly. The game is created for a game jam, and although it is a simple game, it has special value to me because all the sprites and music created by me. ",
+        gameLink: gameLink2,
     }
 
 ]

@@ -7,7 +7,7 @@ export interface listItem  {
     stared?: boolean;
     link?: string
     extraDescription?: string;
-
+    gameLink?: React.ReactNode;
 }
 
 function renderItem(item: listItem) {
@@ -38,6 +38,17 @@ function renderItem(item: listItem) {
                 <p className="subt-title"> {item.title}</p>
                 <p className="description">{item.description} <a href={item.link}>{item.link}</a>  {item.extraDescription}</p>
             </li>
+        )
+    }
+    if(item.gameLink) {
+        return (
+            <>
+            <li>
+                <p className="subt-title"> {item.title}</p>
+                <p className="description">{item.description}   </p>
+            </li>
+                {item.gameLink}
+            </>
         )
     }
     else {

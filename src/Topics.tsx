@@ -11,7 +11,7 @@ export const Topics = () => {
             <TopicList title="Mathematics Related" topics={mathTopics}></TopicList>
             <TopicList title="Others" topics={others}></TopicList>
 
-            <p>Last Updated at: May 2026</p>
+            <p>Last Updated at: November 2026</p>
         </>
     )
 }
@@ -40,6 +40,7 @@ const cmpeTopics: topic[] = [
     { title: "Why logistic regression requires gradient descent ? The gradient of E_in leads to nonlinear equations", subject: "Machine Learning" },
     { title: "Turing recognizable languages have measure zero in all languages. Therefore,'most' of the problems cannot be solved by computers.", subject: "Decidability" },
     { title: "Proof of Hilbert's 10th problem is undecidable (diophantine equation solutions) by showing its equivalent to halting problem.", subject: "Turing Machines" },
+    { title: "Law of the Excluded Middle (LEM) and why it is a controversy", subject: "Logic"}
 
 ]
 
